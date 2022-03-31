@@ -1,0 +1,74 @@
+ <!-- name : nishant
+ rollno: 190070800031
+ branch: computer science
+ semester: 6 -->
+<!----------------------------- Tourist reservation webpage  -------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation form</title>
+    <link rel="stylesheet" href="nishant.css">
+</head>
+<body>
+    <h1> Tourist Reservation Form</h1>
+   <form action="">
+    <table>
+        <tr>
+            <td>
+                <p>NAME:</p>
+             <input type="text" placeholder="Your name">
+            </td>
+            <td>
+                <p>EMAIL:</p>
+                <input type="text" placeholder="Your Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>ARRIVAL DATE:</p>
+             <input type="text" placeholder="mm/dd/yy">
+            </td>
+            <td>
+                <p>TIME:</p>
+                <input type="text" placeholder="HRS MIN">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>DEPARTURE DATE:</p>
+             <input type="text" placeholder="mm/dd/yy">
+            </td>
+            <td>
+                <p>TIME:</p>
+                <input type="text" placeholder="HRS MIN">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>CHOOSE A ROOM:</p>
+             <SElect>
+                 <OPTION checked> ROOM </OPTION>
+                 <OPTION > SMALL </OPTION>
+                 <OPTION > MEDIUM </OPTION>
+                 <OPTION > LARGE </OPTION>
+             </SElect>
+            </td>
+            <td>
+                <p>NO OF PEOPLE:</p>
+                <input type="text" placeholder="persions">
+            </td>
+        </tr>
+    </table><br>
+    <input onclick="add()" type="button" class="bottom" value="Make a Reservation">
+</form>
+<p class="A"> Coppyright 2022 Tourist Reservation Form . All rights belong to me </p>
+<script>
+function add(){
+    alert("your reservation have been done");
+}
+</script>
+</body>
+</html>
